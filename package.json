@@ -1,0 +1,39 @@
+{
+  "name": "YonanneGrunt",
+  "title": "GruntJS-app",
+  "description": "Simple introduction to GruntJS set up",
+  "author": "your name",
+  "homepage": "http://your project website",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-contrib-less": "~0.9.0",
+  	"grunt-contrib-cssmin": "~0.7.0",
+  	"grunt-contrib-uglify": "~0.3.0",
+  	"grunt-contrib-concat": "~0.3.0"
+  },
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-less": "~0.9.0",
+  	"grunt-contrib-cssmin": "~0.7.0",
+  	"grunt-contrib-uglify": "~0.3.0",
+  	"grunt-contrib-concat": "~0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eubby06/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "samples",
+    "projects"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eubby06/portfolio/issues"
+  }
+}

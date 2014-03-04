@@ -18,7 +18,7 @@ class CreateCaseStudiesTable extends Migration {
 			$table->integer('project_id');
 			$table->integer('client_id');
 			$table->longText('how_we_helped');
-			$table->longText('what_we-did');
+			$table->longText('what_we_did');
 			$table->timestamps();
 		});
 	}

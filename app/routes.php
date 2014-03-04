@@ -12,3 +12,11 @@
 */
 
 Route::get('/', 'HomeController@getIndex');
+
+Route::group(array('prefix' => 'admin'), function()
+{
+	Route::get('clients', array(
+		'as' 	=> 'clients_list',
+		'uses'	=> 'ClientController@getIndex'
+	));
+});

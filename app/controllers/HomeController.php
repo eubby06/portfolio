@@ -19,6 +19,6 @@ class HomeController extends BaseController {
 	public function getIndex()
 	{
 		$users = User::all();
-		return View::make('index', array('users' => $users));
+		return View::make('dashboard.index', array('users' => $users));
 	}
 }

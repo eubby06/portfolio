@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'gymboxx',
+			'database'  => 'portfolio',
 			'username'  => 'admin',
 			'password'  => 'admin',
 			'charset'   => 'utf8',
